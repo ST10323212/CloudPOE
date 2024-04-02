@@ -1,0 +1,52 @@
+﻿
+@{
+
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Center the content vertically and horizontally */
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f9e3e8; /* Very light pink background color */
+            flex-direction: column; /* Align items in a column */
+        }
+
+        /* Adjust font size and color */
+        .text-black {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center">
+        <h1 class="text-black mb-4">Enter your Contact information</h1>
+        <div class="card text-left mb-3" style="max-width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Enter your name</h5>
+                <input type="text" class="form-control" placeholder="Your Name">
+            </div>
+        </div>
+        <div class="card text-left mb-3" style="max-width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Email</h5>
+                <input type="email" class="form-control" placeholder="Your Email">
+            </div>
+        </div>
+        <div class="card text-left mb-3" style="max-width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Phone number</h5>
+                <input type="tel" class="form-control" placeholder="Your Phone Number">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
